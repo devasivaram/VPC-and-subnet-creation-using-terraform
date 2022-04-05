@@ -1,5 +1,8 @@
 # VPC-and-subnet-creation-with-count-using-terraform
 
+# Description
+-------------------------------------------------- 
+
 Created a VPC with 6 subnets, 2 route tables, and internet gateway. Also associated the subnets to the appropriate route tables.
 
 ## Prerequisites
