@@ -56,6 +56,14 @@ vpc_cidr = "X.X.X.X/16"
 project = "name-of-your-project"
 ~~~
 
+## Create a datasource.tf file
+
+~~~
+data "aws_availability_zones" "subnet" {
+  state = "available"
+}
+~~~
+
 **Go to the directory that you wish to save your tfstate files.Then Initialize the working directory containing Terraform configuration files using below command.**
 
 ~~~
